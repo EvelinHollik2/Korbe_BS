@@ -1,8 +1,19 @@
+const csiga=document.querySelector('#csiga');
 const kijelzo = document.querySelector('#kijelzo')
+const szelesseg=window.innerWidth;
+const magassag=window.innerHeight;
+console.log(szelesseg, magassag);
+
+
 var szam=0;
-function szamol() {
+
+function mozog() {
+    
+    
+    
     kijelzo.innerHTML = szam.toString();
     szam += 1;
 }
 
-setInterval(szamol,1000);
+setInterval(mozog,1000);
+
