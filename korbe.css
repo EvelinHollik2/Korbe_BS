@@ -2,3 +2,6 @@ img{
     width: 20%;
     position: absolute;
 }
+body{
+    background-color: pink;
+}
